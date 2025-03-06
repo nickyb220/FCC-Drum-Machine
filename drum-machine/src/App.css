@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.whole-drum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px auto;
+  width: min-content;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #434343;
+  background-color: #232323;
+  color: blue;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(31, 31, 187, 0.304);  
+  transition: all 0.1s ease-in-out;
+}
+
+.drum-pad:active {
+  transform: scale(0.95);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
